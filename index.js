@@ -207,7 +207,7 @@ function tokenizeVideo(md, options) {
       service + '-player" width="' + (options[service].width) +
       '" height="' + (options[service].height) +
       '" src="' + options.url(service, videoID, tokens[idx].url, options) +
-      '" frameborder="0" mozallowfullscreen allowfullscreen></iframe></div>';
+      '" frameborder="0" allowfullscreen></iframe></div>';
   }
 
   return tokenizeReturn;
