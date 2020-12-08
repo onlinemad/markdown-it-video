@@ -204,10 +204,10 @@ function tokenizeVideo(md, options) {
 
     return videoID === '' ? '' :
       '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item ' +
-      service + '-player" type="text/html" width="' + (options[service].width) +
+      service + '-player" width="' + (options[service].width) +
       '" height="' + (options[service].height) +
       '" src="' + options.url(service, videoID, tokens[idx].url, options) +
-      '" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
+      '" allowfullscreen></iframe></div>';
   }
 
   return tokenizeReturn;
