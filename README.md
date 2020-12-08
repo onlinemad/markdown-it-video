@@ -36,7 +36,7 @@ is interpreted as
 ```html
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="youtubeplayer" width="640" height="390"
   src="//www.youtube.com/embed/dQw4w9WgXcQ"
-  frameborder="0"/></div></p>
+ /></div></p>
 ```
 
 Alternately, you could use a number of different YouTube URL formats rather than just the video id.
@@ -64,7 +64,7 @@ is interpreted as
 ```html
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="vimeoplayer" width="500" height="281"
   src="//player.vimeo.com/video/19706846"
-  frameborder="0"/></div></p>
+ /></div></p>
 ```
 
 Alternately, you could use the url instead of just the video id.
@@ -85,7 +85,7 @@ is interpreted as
 ```html
 <p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="vineplayer" width="600" height="600"
   src="//vine.co/v/etVpwB7uHlw/embed/simple"
-  frameborder="0"/></div></p>
+ /></div></p>
 ```
 
 Alternately, you could use the url, or even the whole embed tag instead of just the video id.
@@ -93,7 +93,7 @@ Alternately, you could use the url, or even the whole embed tag instead of just 
 ```md
 @[vine](https://vine.co/v/etVpwB7uHlw/embed/simple)
 @[vine](https://vine.co/v/etVpwB7uHlw/embed/postcard?audio=1)
-@[vine](<iframe src="https://vine.co/v/etVpwB7uHlw/embed/simple?audio=1" width="600" height="600" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>)
+@[vine](<iframe src="https://vine.co/v/etVpwB7uHlw/embed/simple?audio=1" width="600" height="600"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>)
 ```
 
 #### Prezi
@@ -105,7 +105,7 @@ Alternately, you could use the url, or even the whole embed tag instead of just 
 is interpreted as 
 
 ```html
-<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="preziplayer" width="550" height="400" src="https://prezi.com/embed/1kkxdtlp4241/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" frameborder="0" allowfullscreen></iframe></div></p>
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" id="preziplayer" width="550" height="400" src="https://prezi.com/embed/1kkxdtlp4241/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5N1lQVHkxSHFxazZ0UUNCRHloSXZROHh3PT0&amp;landing_sign=1kD6c0N6aYpMUS0wxnQjxzSqZlEB8qNFdxtdjYhwSuI" allowfullscreen></iframe></div></p>
 ```
 
 Alternately, you could use the url.
