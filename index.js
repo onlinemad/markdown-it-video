@@ -203,7 +203,7 @@ function tokenizeVideo(md, options) {
     }
 
     return videoID === '' ? '' :
-      '<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item ' +
+      '<div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9"><iframe class="embed-responsive-item ' +
       service + '-player" width="' + (options[service].width) +
       '" height="' + (options[service].height) +
       '" src="' + options.url(service, videoID, tokens[idx].url, options) +

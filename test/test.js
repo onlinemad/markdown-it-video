@@ -37,12 +37,12 @@ describe('markdown-it-video: options', function () {
 
   it('normal to nocookie', function () {
     renderedHtml = md.render('@[youtube](youtube.com/v/0zM3nApSvMg)');
-    assert.equal(renderedHtml, '<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" width="640" height="390" src="https://www.youtube-nocookie.com/embed/0zM3nApSvMg?rel=0&fs=0&autoplay=0" allowfullscreen></iframe></div></p>\n');
+    assert.equal(renderedHtml, '<p><div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9"><iframe class="embed-responsive-item youtube-player" width="640" height="390" src="https://www.youtube-nocookie.com/embed/0zM3nApSvMg?rel=0&fs=0&autoplay=0" allowfullscreen></iframe></div></p>\n');
   });
 
   it('overwrite parameter', function () {
     renderedHtml = md.render('@[youtube](youtube.com/embed/0zM3nApSvMg?autoplay=1&rel=0)');
-    assert.equal(renderedHtml, '<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" width="640" height="390" src="https://www.youtube-nocookie.com/embed/0zM3nApSvMg?autoplay=0&rel=0&fs=0" allowfullscreen></iframe></div></p>\n');
+    assert.equal(renderedHtml, '<p><div class="embed-responsive embed-responsive-16by9 ratio ratio-16x9"><iframe class="embed-responsive-item youtube-player" width="640" height="390" src="https://www.youtube-nocookie.com/embed/0zM3nApSvMg?autoplay=0&rel=0&fs=0" allowfullscreen></iframe></div></p>\n');
   });
 });
 
